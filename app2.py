@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 import joblib
 
-# Load dataset
+# Load dataset from csv
 @st.cache_data
 def load_data():
     df = pd.read_csv("npi_data.csv")
